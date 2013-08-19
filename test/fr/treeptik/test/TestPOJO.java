@@ -18,7 +18,6 @@ public class TestPOJO {
 
 	@Autowired
 	private SocieteService societeService;
-
 	@Test
 	@Transactional
 	@Rollback(false)
