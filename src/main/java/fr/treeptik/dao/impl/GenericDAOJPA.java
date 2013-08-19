@@ -1,4 +1,4 @@
-package fr.treeptik.generic.dao.jpa;
+package fr.treeptik.dao.impl;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.PersistenceException;
 
+import fr.treeptik.dao.GenericDAO;
 import fr.treeptik.exception.DAOException;
-import fr.treeptik.generic.dao.GenericDAO;
 
 public class GenericDAOJPA<T, PK> implements GenericDAO<T, PK> {
 

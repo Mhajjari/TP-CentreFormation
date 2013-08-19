@@ -3,7 +3,6 @@ package fr.treeptik.dao.impl;
 import org.springframework.stereotype.Repository;
 
 import fr.treeptik.dao.SessionDAO;
-import fr.treeptik.generic.dao.jpa.GenericDAOJPA;
 import fr.treeptik.pojo.Session;
 
 @Repository

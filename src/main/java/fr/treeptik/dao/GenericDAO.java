@@ -1,4 +1,4 @@
-package fr.treeptik.generic.dao;
+package fr.treeptik.dao;
 
 import java.util.List;
 
