@@ -10,6 +10,7 @@ import javax.persistence.Table;
 @Table(name = "SEMINAIRE")
 public class Seminaire implements Serializable {
 
+	
 	private static final long serialVersionUID = 1L;
 	private Integer id;
 	private Date DateSession;
