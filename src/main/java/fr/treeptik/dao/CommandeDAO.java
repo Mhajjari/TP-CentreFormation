@@ -1,5 +1,8 @@
 package fr.treeptik.dao;
 
-public interface CommandeDAO {
+import fr.treeptik.generic.dao.GenericDAO;
+import fr.treeptik.pojo.Commande;
+
+public interface CommandeDAO extends GenericDAO<Commande, Integer>{
 
 }

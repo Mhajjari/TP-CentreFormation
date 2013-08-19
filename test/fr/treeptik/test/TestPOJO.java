@@ -20,7 +20,7 @@ public class TestPOJO {
 	@Test
 	public void testSociete() {
 		try {
-			Societe societe = new Societe();
+			Societe societe = new Societe(null, "nomSociete");
 			societe = societeDAOImpl.save(societe);
 			System.out.println(societe.getId());
 		} catch (ServiceException e) {

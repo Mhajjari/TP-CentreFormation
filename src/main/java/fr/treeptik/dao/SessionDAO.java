@@ -1,5 +1,8 @@
 package fr.treeptik.dao;
 
-public interface SessionDAO {
+import fr.treeptik.generic.dao.GenericDAO;
+import fr.treeptik.pojo.Session;
+
+public interface SessionDAO extends GenericDAO<Session, Integer>{
 
 }

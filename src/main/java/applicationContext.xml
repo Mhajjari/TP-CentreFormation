@@ -28,7 +28,7 @@
 		<property name="jpaVendorAdapter">
 			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
 				<property name="showSql" value="true" />
-				<property name="generateDdl" value="false" /><!-- on met false 
+				<property name="generateDdl" value="true" /><!-- on met false 
 					parce que la base est créer et on veux pas la générer -->
 				<property name="databasePlatform" value="org.hibernate.dialect.MySQLDialect" />
 			</bean>
