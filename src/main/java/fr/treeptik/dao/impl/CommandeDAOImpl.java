@@ -18,7 +18,7 @@ public class CommandeDAOImpl extends GenericDAOJPA<Commande, Integer> implements
 	public CommandeDAOImpl() {
 		super(Commande.class);
 	}
-	//test
+
 	@Override
 	public List<Commande> findAllBySociete(Integer societeId)
 			throws DAOException {
