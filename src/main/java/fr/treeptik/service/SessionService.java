@@ -7,8 +7,8 @@ import fr.treeptik.pojo.Session;
 
 public interface SessionService {
 
-	Session save(Session facture) throws ServiceException;
-	Session remove(Session facture) throws ServiceException;
-	Session findById(Session facture) throws ServiceException;
+	Session save(Session session) throws ServiceException;
+	Session remove(Session session) throws ServiceException;
+	Session findById(Session session) throws ServiceException;
 	List<Session> findAll() throws ServiceException;
 }
